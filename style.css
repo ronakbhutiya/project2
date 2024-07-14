@@ -580,6 +580,9 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .menu-icon {
+    margin-top: 0;
+  }
 }
 @media (max-width: 60.31em) {
   html {
@@ -626,6 +629,38 @@ body {
     flex-direction: column;
   }
   .img-icons {
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 34.38em) {
+  .nav-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  .side-nav {
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+  .progress-header {
+    padding: 4rem 3rem 0 3rem;
+  }
+  .progress-container {
+    padding: 0 3rem;
+  }
+  .projects-boxes {
+    padding: 2rem 3rem 0 3rem;
+  }
+  .notification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .side-nav {
     gap: 1rem;
+  }
+  .img-link,
+  .img-link-active {
+    padding: 1rem;
   }
 }
