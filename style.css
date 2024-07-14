@@ -573,7 +573,8 @@ body {
   }
   .side-nav {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
   .img-icons {
     flex-direction: row;
@@ -581,8 +582,7 @@ body {
     justify-content: center;
   }
   .menu-icon {
-    margin-top: 0;
-    margin-left: 1rem;
+    display: none;
   }
 }
 @media (max-width: 60.31em) {
@@ -597,10 +597,7 @@ body {
   .client-msg-header {
     margin-top: 4rem;
   }
-  .side-nav {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+
   .img-icons {
     flex-direction: row;
     align-items: center;
@@ -627,7 +624,7 @@ body {
 }
 @media (max-width: 41.88em) {
   .progress-box {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .img-icons {
     gap: 0.5rem;
